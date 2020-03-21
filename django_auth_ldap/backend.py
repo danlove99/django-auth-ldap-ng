@@ -73,7 +73,7 @@ except ImportError:
 from django_auth_ldap.config import _LDAPConfig, LDAPSearch
 
 import re
-from django.utils import six
+import six
 
 logger = _LDAPConfig.get_logger()
 
