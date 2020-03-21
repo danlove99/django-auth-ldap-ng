@@ -4,6 +4,7 @@ but there are many rich configuration options for working with users, groups,
 and permissions.
 
 This version is supported on Python 2.6, 2.7, 3.4 and 3.5; and Django >= 1.7.
+with Django >= 3.0.0, it requires 'six'
 Under Python 2, it requires `python-ldap
 <https://pypi.python.org/pypi/python-ldap>`_ >= 2.0; under Python 3, it uses
 `pyldap <https://pypi.python.org/pypi/pyldap>`_.
